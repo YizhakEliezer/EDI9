@@ -41,16 +41,30 @@ body {
   padding: 0;
   border-top: 40px solid #462d42;
   border-bottom: 40px solid #462d42;
-
 }
 
-#test{
+
+/* #marginScreenUp{
+  margin: 0;
+  padding: 0;
   position: fixed;
   background-color:  #462d42; 
   width: 100%;
   height: 45px;
   top: -0%;
-}
+} */
+
+
+/* #marginScreenDown{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color:  #462d42; 
+  width: 100%;
+  height: 45px;
+  top: -0%;
+} */
+
 
 #marginScreen {
   position: absolute;
@@ -197,6 +211,7 @@ td:hover {
   position: relative;
   right: 13px;
   top: 5px;
+
 }
 
 
@@ -282,11 +297,15 @@ td:hover {
     color: white;
     border: 2px solid white;
   }
-  
-  #test{
-    background-color:  #462d42; 
-  }
+  border: 2px solid #efd1ea;
+   margin: 0;
+  padding: 0;
+  /* border-top: 40px solid #282424; */
+  border-top: 40px solid #3c3737;
+  border-bottom: 40px solid #3c3737;
 
+
+ 
 }
 
 
