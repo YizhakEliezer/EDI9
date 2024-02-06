@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <title>EDI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="js/jsonDataEdi.js"></script>
+    <script src="js/modeScreen.js"></script>
+    <script src="js/calendar.js"></script>
+</head>
+
+
+<div id="test"></div>
+
+<body class="body">
+    <i class="fa-solid fa-bars" id="iconMenu"></i>
+    <div id="marginScreen">EDI פורטל בדיקות</div>
+    <div id="marginScreenEW">EDI Suppliers test</div>
+
+    <img src="/img/icon.png" id="iconStorenext">
+
+    <i class="fa-solid fa-toggle-on" id="modeScreen"></i>
+
+
+
+    <div id="firsTestScreen">
+     
+        <h1 id="titleFirsTestScreen">EDI ברוכים למסך בדיקות
+            <br>חפשו את התעודה הרצויה
+        </h1>
+
+        <div id="dateSelect">
+            <select name="typeMass" id="typeMass">
+                <option value="typeDef">סוג תעודה</option>
+                <option value="supdes">משלוח</option>
+                <option value="order">משלוח</option>
+                <option value="mmdr">כניסה</option>
+                <option value="return">החזרה</option>
+            </select><br><br>
+
+
+
+            <datalist id="groupDate">
+                <option value="היום">
+                <option value="שלושה ימים אחרונים">
+                <option value="שבוע אחרון">
+                <option value="חודש אחרון">
+            </datalist>
+
+
+            <i class="fa-solid fa-calendar-days" onclick="toggleDatePicker()" id="iconDate"></i>
+            <input type="text" id="selectedDateGroup" placeholder="בחר תאריך תעודה" list="groupDate">
+
+
+            <div id="datePicker" style="display: none;">
+                <select id="monthSelect" onchange="generateCalendar()">
+                    <option value="0">ינואר</option>
+                    <option value="1">פבואר</option>
+                    <option value="2">מרץ</option>
+                    <option value="3">אפריל</option>
+                    <option value="4">מאי</option>
+                    <option value="5">יוני</option>
+                    <option value="6">יולי</option>
+                    <option value="7">אוגוסט</option>
+                    <option value="8">ספטמבר</option>
+                    <option value="9">אוקטובר</option>
+                    <option value="10">נובמבר</option>
+                    <option value="11">דצמבר</option>
+                </select>
+                <select id="yearSelect" onchange="generateCalendar()">
+                </select>
+                <br><br>
+                <table id="calendar"></table>
+            </div>
+
+            
+        </div>
+
+        <ul id="ulTypeMass">
+            <li> <input placeholder="ספק התעודה" id="supllierInputSearch" list="supllierList"></li>
+            <p id="nameSupllier"></p>
+            <datalist id="supllierList"></datalist>
+            <li> <input placeholder="רשת התעודה" id="retailerInputSearch" list="retailerList"></li>
+            <p id="nameRetailer"></p>
+            <datalist id="retailerList"></datalist>
+            <li> <input placeholder="מספר התעודה"></li>
+        </ul>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

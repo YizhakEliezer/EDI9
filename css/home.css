@@ -1,0 +1,295 @@
+
+#firsTestScreen {
+  border: 2px solid #454747;
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#firsTestScreen ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  right: 17px;
+  bottom: -10px;
+}
+
+body {
+  background-color: #f0f0f3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-top: 40px solid #462d42;
+  border-bottom: 40px solid #462d42;
+
+}
+
+#test{
+  position: fixed;
+  background-color:  #462d42; 
+  width: 100%;
+  height: 45px;
+  top: -0%;
+}
+
+#marginScreen {
+  position: absolute;
+  top: 2px;
+  font-size: 13px;
+  right: 50px;
+  color: aliceblue;
+  font-style: italic;
+  line-height: 22px;
+}
+
+
+#marginScreenEW {
+  position: absolute;
+  top: 19px;
+  font-size: 13px;
+  right: 50px;
+  color: aliceblue;
+  font-style: italic;
+  line-height: 22px;
+
+}
+
+#iconMenu {
+  position: absolute;
+  top: 12px;
+  font-size: 13px;
+  right: 25px;
+  color: aliceblue;
+  font-style: italic;
+  line-height: 22px;
+
+}
+
+
+
+
+
+#firsTestScreen input {
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  border: 2px solid #454747;
+  background-color: #f4f0f0;
+}
+
+
+#titleFirsTestScreen {
+  position: absolute;
+  bottom: 290px;
+  color: #454747;
+
+}
+
+#firsTestScreen select {
+  text-align: center;
+  padding: 3px;
+  border-radius: 2px;
+  border: 2px solid #454747;
+  position: relative;
+  bottom: -5px;
+  background-color: #f4f0f0;
+}
+
+
+#nameRetailer {
+  color: #993871;
+  position: relative;
+  font-size: 15px;
+
+}
+
+#nameSupllier {
+  color: #993871;
+  position: relative;
+  font-size: 15px;
+}
+
+
+
+.body img {
+  position: absolute;
+  width: 170px;
+  left: 20px;
+  top: 50px;
+  margin: 10px;
+
+}
+
+
+
+
+#modeScreen {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  left: 100px;
+  top: 110px;
+  margin: 10px;
+  font-size: 35px;
+  color: #462d42;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-color: #462d42;
+}
+
+th,td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  border-color: #462d42;
+}
+
+th {
+  background-color: #f2f2f2;
+  border-color: #462d42;
+}
+
+td:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-color: #462d42;
+}
+
+#datePicker {
+  position: absolute;
+  right: 310px;
+  top: 70px;
+  background-color: white;
+  border: 2px solid #462d42;
+}
+
+#selectedDateGroup {
+  position: relative;
+  right: 6px;
+  width: 176px;
+  top: 3px;
+}
+
+#iconDate {
+  position: relative;
+  right: 13px;
+  top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-theme {
+  background-color: #2b2929;
+
+  #titleFirsTestScreen {
+    color: #efd1ea;
+  }
+
+  #firsTestScreen {
+    background-color: #3a3737;
+    border: solid #dfd5dd;
+  }
+
+  #firsTestScreen select {
+    border: 2px solid #dfd5dd;
+    background-color: #282424;
+    color: white;
+    font-weight: bold;
+  }
+
+  #firsTestScreen input {
+    border: 2px solid #dfd5dd;
+    background-color: #282424;
+    color: white;
+  }
+
+  #firsTestScreen input::placeholder {
+    color: white;
+  }
+
+  #nameRetailer {
+    color: #efd1ea;
+  }
+
+  #nameSupllier {
+    color: #efd1ea;
+  }
+
+  #modeScreen {
+    color: #efd1ea;
+
+  }
+
+  #iconDate {
+   color: #efd1ea;
+  }
+
+
+  #datePicker {
+    background-color: #282424;
+    color: white;
+    border: 2px solid white;
+  }
+  
+
+  th,td {
+    color: white;
+    border: 2px solid white;
+  }
+  
+  #test{
+    background-color:  #462d42; 
+  }
+
+}
+
+
+
+
+
