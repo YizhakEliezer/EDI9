@@ -1,6 +1,6 @@
 
 #firsTestScreen {
-  border: 2px solid #454747;
+  border: 2px solid #466565;
   background-color: white;
   border-radius: 5px;
   width: 400px;
@@ -93,7 +93,7 @@ body {
   text-align: center;
   padding: 5px;
   border-radius: 2px;
-  border: 2px solid #454747;
+  border: 2px solid #466565;
   background-color: #f4f0f0;
 }
 
@@ -101,7 +101,7 @@ body {
 #titleFirsTestScreen {
   position: absolute;
   bottom: 290px;
-  color: #454747;
+  color: #466565;
 
 }
 
@@ -109,7 +109,7 @@ body {
   text-align: center;
   padding: 3px;
   border-radius: 2px;
-  border: 2px solid #454747;
+  border: 2px solid #466565;
   position: relative;
   bottom: -5px;
   background-color: #f4f0f0;
@@ -161,7 +161,7 @@ table {
 }
 
 th,td {
-  border: 1px solid #dddddd;
+  border: 1px solid #466565;
   text-align: center;
   padding: 8px;
   border-color: #462d42;
@@ -183,7 +183,7 @@ td:hover {
   right: 310px;
   top: 70px;
   background-color: white;
-  border: 2px solid #462d42;
+  border: 2px solid #466565;
 }
 
 #selectedDateGroup {
