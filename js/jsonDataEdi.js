@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValueInput = document.getElementById("nameRetailer");
 
     // Fetch data from JSON file (replace 'data.json' with your file)
-    fetch('https://yizhakeliezer.github.io/dataJsonR&&S/retailerData.json')
+    fetch('/dataJsonR&&S/retailerData.json')
         .then(response => response.json())
         .then(data => {
             // Populate the datalist with values from the JSON file
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValueInput = document.getElementById("nameSupllier");
 
     // Fetch data from JSON file (replace 'data.json' with your file)
-    fetch('https://yizhakeliezer.github.io/dataJsonR&&S/supllierData.json')
+    fetch('/dataJsonR&&S/supllierData.json')
         .then(response => response.json())
         .then(data => {
             // Populate the datalist with values from the JSON file
